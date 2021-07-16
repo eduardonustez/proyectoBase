@@ -30,6 +30,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.17",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.17",
           "Project.Infra.Data": "1.0.0",
+          "Project.Infra.IoC": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1453,6 +1454,17 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "Project.Application/1.0.0": {
+        "dependencies": {
+          "Project.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Project.Application.dll": {}
+        },
+        "compile": {
+          "Project.Application.dll": {}
+        }
+      },
       "Project.Domain/1.0.0": {
         "runtime": {
           "Project.Domain.dll": {}
@@ -1472,6 +1484,19 @@
         },
         "compile": {
           "Project.Infra.Data.dll": {}
+        }
+      },
+      "Project.Infra.IoC/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "3.1.17",
+          "Project.Application": "1.0.0",
+          "Project.Infra.Data": "1.0.0"
+        },
+        "runtime": {
+          "Project.Infra.IoC.dll": {}
+        },
+        "compile": {
+          "Project.Infra.IoC.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3795,12 +3820,22 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
+    "Project.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Project.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Project.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Project.Infra.IoC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1520,6 +1520,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Project.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Project.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Project.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Project.Application.dll": {}
+        }
+      },
       "Project.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1543,6 +1556,21 @@
         },
         "runtime": {
           "bin/placeholder/Project.Infra.Data.dll": {}
+        }
+      },
+      "Project.Infra.IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "3.1.17",
+          "Project.Application": "1.0.0",
+          "Project.Infra.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Project.Infra.IoC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Project.Infra.IoC.dll": {}
         }
       }
     }
@@ -5712,6 +5740,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Project.Application/1.0.0": {
+      "type": "project",
+      "path": "../Project.Application/Project.Application.csproj",
+      "msbuildProject": "../Project.Application/Project.Application.csproj"
+    },
     "Project.Domain/1.0.0": {
       "type": "project",
       "path": "../Project.Domain/Project.Domain.csproj",
@@ -5721,6 +5754,11 @@
       "type": "project",
       "path": "../Project.Infra.Data/Project.Infra.Data.csproj",
       "msbuildProject": "../Project.Infra.Data/Project.Infra.Data.csproj"
+    },
+    "Project.Infra.IoC/1.0.0": {
+      "type": "project",
+      "path": "../Project.Infra.IoC/Project.Infra.IoC.csproj",
+      "msbuildProject": "../Project.Infra.IoC/Project.Infra.IoC.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5730,7 +5768,8 @@
       "Microsoft.AspNetCore.Identity.UI >= 3.1.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.17",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.17",
-      "Project.Infra.Data >= 1.0.0"
+      "Project.Infra.Data >= 1.0.0",
+      "Project.Infra.IoC >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5761,6 +5800,9 @@
           "projectReferences": {
             "D:\\ProyectoBase\\Solution\\Project.Infra.Data\\Project.Infra.Data.csproj": {
               "projectPath": "D:\\ProyectoBase\\Solution\\Project.Infra.Data\\Project.Infra.Data.csproj"
+            },
+            "D:\\ProyectoBase\\Solution\\Project.Infra.IoC\\Project.Infra.IoC.csproj": {
+              "projectPath": "D:\\ProyectoBase\\Solution\\Project.Infra.IoC\\Project.Infra.IoC.csproj"
             }
           }
         }
