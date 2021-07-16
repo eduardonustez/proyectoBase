@@ -100,3 +100,4 @@ D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Project.Application
 D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Project.Infra.IoC.dll
 D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Project.Infra.IoC.pdb
 D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Project.Application.pdb
+D:\ProyectoBase\Solution\Project.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Course\Index.cshtml.g.cs
