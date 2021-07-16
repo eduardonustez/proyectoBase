@@ -1,0 +1,15 @@
+D:\ProyectoBase\Solution\Project.Infra.Data\bin\Debug\netcoreapp3.1\Project.Infra.Data.deps.json
+D:\ProyectoBase\Solution\Project.Infra.Data\bin\Debug\netcoreapp3.1\Project.Infra.Data.dll
+D:\ProyectoBase\Solution\Project.Infra.Data\obj\Debug\netcoreapp3.1\Project.Infra.Data.csprojAssemblyReference.cache
+D:\ProyectoBase\Solution\Project.Infra.Data\obj\Debug\netcoreapp3.1\Project.Infra.Data.AssemblyInfoInputs.cache
+D:\ProyectoBase\Solution\Project.Infra.Data\obj\Debug\netcoreapp3.1\Project.Infra.Data.AssemblyInfo.cs
+D:\ProyectoBase\Solution\Project.Infra.Data\bin\Debug\netcoreapp3.1\Project.Infra.Data.runtimeconfig.json
+D:\ProyectoBase\Solution\Project.Infra.Data\bin\Debug\netcoreapp3.1\Project.Infra.Data.runtimeconfig.dev.json
+D:\ProyectoBase\Solution\Project.Infra.Data\obj\Debug\netcoreapp3.1\Project.Infra.Data.genruntimeconfig.cache
+D:\ProyectoBase\Solution\Project.Infra.Data\bin\Debug\netcoreapp3.1\Project.Infra.Data.pdb
+D:\ProyectoBase\Solution\Project.Infra.Data\bin\Debug\netcoreapp3.1\Project.Domain.dll
+D:\ProyectoBase\Solution\Project.Infra.Data\bin\Debug\netcoreapp3.1\Project.Domain.pdb
+D:\ProyectoBase\Solution\Project.Infra.Data\obj\Debug\netcoreapp3.1\Project.Infra.Data.csproj.CoreCompileInputs.cache
+D:\ProyectoBase\Solution\Project.Infra.Data\obj\Debug\netcoreapp3.1\Project.Infra.Data.csproj.CopyComplete
+D:\ProyectoBase\Solution\Project.Infra.Data\obj\Debug\netcoreapp3.1\Project.Infra.Data.dll
+D:\ProyectoBase\Solution\Project.Infra.Data\obj\Debug\netcoreapp3.1\Project.Infra.Data.pdb

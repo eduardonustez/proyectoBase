@@ -86,3 +86,13 @@ D:\ProyectoBase\Solution\Project.Mvc\obj\Debug\netcoreapp3.1\staticwebassets\Pro
 D:\ProyectoBase\Solution\Project.Mvc\obj\Debug\netcoreapp3.1\Project.Mvc.dll
 D:\ProyectoBase\Solution\Project.Mvc\obj\Debug\netcoreapp3.1\Project.Mvc.pdb
 D:\ProyectoBase\Solution\Project.Mvc\obj\Debug\netcoreapp3.1\Project.Mvc.genruntimeconfig.cache
+D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Project.Domain.dll
+D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Project.Infra.Data.dll
+D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Project.Infra.Data.pdb
+D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Project.Domain.pdb
