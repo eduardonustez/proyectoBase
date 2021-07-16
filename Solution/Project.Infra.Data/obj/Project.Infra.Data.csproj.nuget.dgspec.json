@@ -4,6 +4,64 @@
     "D:\\ProyectoBase\\Solution\\Project.Infra.Data\\Project.Infra.Data.csproj": {}
   },
   "projects": {
+    "D:\\ProyectoBase\\Solution\\Project.Domain.Core\\Project.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProyectoBase\\Solution\\Project.Domain.Core\\Project.Domain.Core.csproj",
+        "projectName": "Project.Domain.Core",
+        "projectPath": "D:\\ProyectoBase\\Solution\\Project.Domain.Core\\Project.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
+        "outputPath": "D:\\ProyectoBase\\Solution\\Project.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\ProyectoBase\\Solution\\Project.Domain\\Project.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,7 +84,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\ProyectoBase\\Solution\\Project.Domain.Core\\Project.Domain.Core.csproj": {
+                "projectPath": "D:\\ProyectoBase\\Solution\\Project.Domain.Core\\Project.Domain.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

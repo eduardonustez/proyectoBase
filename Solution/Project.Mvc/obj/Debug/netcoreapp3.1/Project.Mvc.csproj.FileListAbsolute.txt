@@ -101,3 +101,8 @@ D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Project.Infra.IoC.d
 D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Project.Infra.IoC.pdb
 D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Project.Application.pdb
 D:\ProyectoBase\Solution\Project.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Course\Index.cshtml.g.cs
+D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\MediatR.dll
+D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Project.Domain.Core.dll
+D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Project.Domain.Core.pdb
+D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Project.Infra.Bus.dll
+D:\ProyectoBase\Solution\Project.Mvc\bin\Debug\netcoreapp3.1\Project.Infra.Bus.pdb

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0SdY1yzYmQrFahAXVniGHRj1xt1R9/fKtVd7C+FZ+vAgQYZnG8OnSUCFAGTk4MSV7yRWT6psPTTd0AuD1u4sRw==",
+  "dgSpecHash": "ZjOqUoxnRb7rfN+zi80bFg2aueTZlYEWG0vQngbtA5WCLM2WQvPKhyBfNWoDpktQ8WxoAkbEeefSRV421lBaqw==",
   "success": true,
   "projectFilePath": "D:\\ProyectoBase\\Solution\\Project.Infra.IoC\\Project.Infra.IoC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Eduardo\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

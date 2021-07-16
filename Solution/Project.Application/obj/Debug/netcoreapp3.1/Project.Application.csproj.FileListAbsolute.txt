@@ -10,3 +10,5 @@ D:\ProyectoBase\Solution\Project.Application\bin\Debug\netcoreapp3.1\Project.Dom
 D:\ProyectoBase\Solution\Project.Application\bin\Debug\netcoreapp3.1\Project.Domain.pdb
 D:\ProyectoBase\Solution\Project.Application\obj\Debug\netcoreapp3.1\Project.Application.csprojAssemblyReference.cache
 D:\ProyectoBase\Solution\Project.Application\obj\Debug\netcoreapp3.1\Project.Application.csproj.CopyComplete
+D:\ProyectoBase\Solution\Project.Application\bin\Debug\netcoreapp3.1\Project.Domain.Core.dll
+D:\ProyectoBase\Solution\Project.Application\bin\Debug\netcoreapp3.1\Project.Domain.Core.pdb

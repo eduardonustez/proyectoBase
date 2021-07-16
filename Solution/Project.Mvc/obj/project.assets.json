@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "MediatR/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.17": {
         "type": "package",
         "compile": {
@@ -1536,11 +1545,41 @@
       "Project.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Project.Domain.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Project.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/Project.Domain.dll": {}
+        }
+      },
+      "Project.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MediatR": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Project.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Project.Domain.Core.dll": {}
+        }
+      },
+      "Project.Infra.Bus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MediatR": "9.0.0",
+          "Project.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Project.Infra.Bus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Project.Infra.Bus.dll": {}
         }
       },
       "Project.Infra.Data/1.0.0": {
@@ -1564,6 +1603,7 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "3.1.17",
           "Project.Application": "1.0.0",
+          "Project.Infra.Bus": "1.0.0",
           "Project.Infra.Data": "1.0.0"
         },
         "compile": {
@@ -1576,6 +1616,24 @@
     }
   },
   "libraries": {
+    "MediatR/9.0.0": {
+      "sha512": "8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "type": "package",
+      "path": "mediatr/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.9.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.17": {
       "sha512": "3FpaHJj8wmEZc/7dRfIp1PS9LV6c3THjILVdqs/DS1dRsDyX166YgO5iyjIqcT2e5bnvyrCTawxnlFMFUx2EJQ==",
       "type": "package",
@@ -5750,6 +5808,16 @@
       "path": "../Project.Domain/Project.Domain.csproj",
       "msbuildProject": "../Project.Domain/Project.Domain.csproj"
     },
+    "Project.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../Project.Domain.Core/Project.Domain.Core.csproj",
+      "msbuildProject": "../Project.Domain.Core/Project.Domain.Core.csproj"
+    },
+    "Project.Infra.Bus/1.0.0": {
+      "type": "project",
+      "path": "../Prooject.Infra.Bus/Project.Infra.Bus.csproj",
+      "msbuildProject": "../Prooject.Infra.Bus/Project.Infra.Bus.csproj"
+    },
     "Project.Infra.Data/1.0.0": {
       "type": "project",
       "path": "../Project.Infra.Data/Project.Infra.Data.csproj",
@@ -5768,7 +5836,6 @@
       "Microsoft.AspNetCore.Identity.UI >= 3.1.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.17",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.17",
-      "Project.Infra.Data >= 1.0.0",
       "Project.Infra.IoC >= 1.0.0"
     ]
   },
@@ -5798,9 +5865,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\ProyectoBase\\Solution\\Project.Infra.Data\\Project.Infra.Data.csproj": {
-              "projectPath": "D:\\ProyectoBase\\Solution\\Project.Infra.Data\\Project.Infra.Data.csproj"
-            },
             "D:\\ProyectoBase\\Solution\\Project.Infra.IoC\\Project.Infra.IoC.csproj": {
               "projectPath": "D:\\ProyectoBase\\Solution\\Project.Infra.IoC\\Project.Infra.IoC.csproj"
             }

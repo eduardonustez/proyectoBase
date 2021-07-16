@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fCIV8lxFDBg5r11rNapNI2q4TqG5KZjMaafMlT+1C/aUsdEmAuUbDCZ48ugAkB7b64uuGfp3Mwqo13Tvo51Unw==",
+  "dgSpecHash": "OwY+rtLa6xPKxZg0DJOEDgSGC+VI9jkNksvsdG532Bqcuk4YWGp+aQaHcvPukb2keYbg6eEVyyVqUg71eucqxw==",
   "success": true,
   "projectFilePath": "D:\\ProyectoBase\\Solution\\Project.Mvc\\Project.Mvc.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Eduardo\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.17\\microsoft.aspnetcore.cryptography.internal.3.1.17.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.17\\microsoft.aspnetcore.cryptography.keyderivation.3.1.17.nupkg.sha512",
     "C:\\Users\\Eduardo\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.17\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.17.nupkg.sha512",
