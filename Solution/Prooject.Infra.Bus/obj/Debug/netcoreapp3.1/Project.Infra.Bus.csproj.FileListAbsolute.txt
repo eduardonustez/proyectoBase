@@ -1,0 +1,9 @@
+D:\ProyectoBase\Solution\Prooject.Infra.Bus\bin\Debug\netcoreapp3.1\Project.Infra.Bus.deps.json
+D:\ProyectoBase\Solution\Prooject.Infra.Bus\bin\Debug\netcoreapp3.1\Project.Infra.Bus.dll
+D:\ProyectoBase\Solution\Prooject.Infra.Bus\bin\Debug\netcoreapp3.1\Project.Infra.Bus.pdb
+D:\ProyectoBase\Solution\Prooject.Infra.Bus\obj\Debug\netcoreapp3.1\Project.Infra.Bus.csprojAssemblyReference.cache
+D:\ProyectoBase\Solution\Prooject.Infra.Bus\obj\Debug\netcoreapp3.1\Project.Infra.Bus.AssemblyInfoInputs.cache
+D:\ProyectoBase\Solution\Prooject.Infra.Bus\obj\Debug\netcoreapp3.1\Project.Infra.Bus.AssemblyInfo.cs
+D:\ProyectoBase\Solution\Prooject.Infra.Bus\obj\Debug\netcoreapp3.1\Project.Infra.Bus.dll
+D:\ProyectoBase\Solution\Prooject.Infra.Bus\obj\Debug\netcoreapp3.1\Project.Infra.Bus.pdb
+D:\ProyectoBase\Solution\Prooject.Infra.Bus\obj\Debug\netcoreapp3.1\Project.Infra.Bus.csproj.CoreCompileInputs.cache

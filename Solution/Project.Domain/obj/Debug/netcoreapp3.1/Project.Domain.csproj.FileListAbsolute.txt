@@ -6,4 +6,3 @@ D:\ProyectoBase\Solution\Project.Domain\obj\Debug\netcoreapp3.1\Project.Domain.A
 D:\ProyectoBase\Solution\Project.Domain\obj\Debug\netcoreapp3.1\Project.Domain.csproj.CoreCompileInputs.cache
 D:\ProyectoBase\Solution\Project.Domain\obj\Debug\netcoreapp3.1\Project.Domain.dll
 D:\ProyectoBase\Solution\Project.Domain\obj\Debug\netcoreapp3.1\Project.Domain.pdb
-D:\ProyectoBase\Solution\Project.Domain\obj\Debug\netcoreapp3.1\Project.Domain.csprojAssemblyReference.cache

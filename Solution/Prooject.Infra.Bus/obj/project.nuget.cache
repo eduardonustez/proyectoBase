@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UPGpvngO3zGjuuw3DI6E1oG7+hVC8e6UOGshM/nn33U6FoxxQ0ZYmYk6or8fBNcYHcekIuAXSjMEgaqArlUb3Q==",
+  "success": true,
+  "projectFilePath": "D:\\ProyectoBase\\Solution\\Prooject.Infra.Bus\\Project.Infra.Bus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eduardo\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
