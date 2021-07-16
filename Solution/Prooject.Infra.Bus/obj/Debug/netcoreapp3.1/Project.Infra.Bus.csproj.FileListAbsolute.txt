@@ -7,3 +7,6 @@ D:\ProyectoBase\Solution\Prooject.Infra.Bus\obj\Debug\netcoreapp3.1\Project.Infr
 D:\ProyectoBase\Solution\Prooject.Infra.Bus\obj\Debug\netcoreapp3.1\Project.Infra.Bus.dll
 D:\ProyectoBase\Solution\Prooject.Infra.Bus\obj\Debug\netcoreapp3.1\Project.Infra.Bus.pdb
 D:\ProyectoBase\Solution\Prooject.Infra.Bus\obj\Debug\netcoreapp3.1\Project.Infra.Bus.csproj.CoreCompileInputs.cache
+D:\ProyectoBase\Solution\Prooject.Infra.Bus\bin\Debug\netcoreapp3.1\Project.Domain.Core.dll
+D:\ProyectoBase\Solution\Prooject.Infra.Bus\bin\Debug\netcoreapp3.1\Project.Domain.Core.pdb
+D:\ProyectoBase\Solution\Prooject.Infra.Bus\obj\Debug\netcoreapp3.1\Project.Infra.Bus.csproj.CopyComplete

@@ -10,19 +10,6 @@
         "runtime": {
           "lib/netstandard2.1/MediatR.dll": {}
         }
-      },
-      "Project.Domain.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "MediatR": "9.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Project.Domain.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Project.Domain.Core.dll": {}
-        }
       }
     }
   },
@@ -44,17 +31,11 @@
         "mediatr.9.0.0.nupkg.sha512",
         "mediatr.nuspec"
       ]
-    },
-    "Project.Domain.Core/1.0.0": {
-      "type": "project",
-      "path": "../Project.Domain.Core/Project.Domain.Core.csproj",
-      "msbuildProject": "../Project.Domain.Core/Project.Domain.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "MediatR >= 9.0.0",
-      "Project.Domain.Core >= 1.0.0"
+      "MediatR >= 9.0.0"
     ]
   },
   "packageFolders": {
@@ -63,11 +44,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProyectoBase\\Solution\\Prooject.Infra.Bus\\Project.Infra.Bus.csproj",
-      "projectName": "Project.Infra.Bus",
-      "projectPath": "D:\\ProyectoBase\\Solution\\Prooject.Infra.Bus\\Project.Infra.Bus.csproj",
+      "projectUniqueName": "D:\\ProyectoBase\\Solution\\Project.Domain.Core\\Project.Domain.Core.csproj",
+      "projectName": "Project.Domain.Core",
+      "projectPath": "D:\\ProyectoBase\\Solution\\Project.Domain.Core\\Project.Domain.Core.csproj",
       "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-      "outputPath": "D:\\ProyectoBase\\Solution\\Prooject.Infra.Bus\\obj\\",
+      "outputPath": "D:\\ProyectoBase\\Solution\\Project.Domain.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,11 +63,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "D:\\ProyectoBase\\Solution\\Project.Domain.Core\\Project.Domain.Core.csproj": {
-              "projectPath": "D:\\ProyectoBase\\Solution\\Project.Domain.Core\\Project.Domain.Core.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

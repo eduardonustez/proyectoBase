@@ -1,0 +1,8 @@
+D:\ProyectoBase\Solution\Project.Domain.Core\bin\Debug\netcoreapp3.1\Project.Domain.Core.deps.json
+D:\ProyectoBase\Solution\Project.Domain.Core\bin\Debug\netcoreapp3.1\Project.Domain.Core.dll
+D:\ProyectoBase\Solution\Project.Domain.Core\obj\Debug\netcoreapp3.1\Project.Domain.Core.AssemblyInfoInputs.cache
+D:\ProyectoBase\Solution\Project.Domain.Core\obj\Debug\netcoreapp3.1\Project.Domain.Core.AssemblyInfo.cs
+D:\ProyectoBase\Solution\Project.Domain.Core\bin\Debug\netcoreapp3.1\Project.Domain.Core.pdb
+D:\ProyectoBase\Solution\Project.Domain.Core\obj\Debug\netcoreapp3.1\Project.Domain.Core.csproj.CoreCompileInputs.cache
+D:\ProyectoBase\Solution\Project.Domain.Core\obj\Debug\netcoreapp3.1\Project.Domain.Core.dll
+D:\ProyectoBase\Solution\Project.Domain.Core\obj\Debug\netcoreapp3.1\Project.Domain.Core.pdb
