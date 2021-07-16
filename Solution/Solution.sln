@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project.Application", "Project.Application", "{D198ADE4-501E-4261-9A46-9DB448F31383}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{D198ADE4-501E-4261-9A46-9DB448F31383}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project.Domain", "Project.Domain", "{4FC89632-B6FC-47FB-830F-0F96987DC389}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{4FC89632-B6FC-47FB-830F-0F96987DC389}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project.Infra.Ioc", "Project.Infra.Ioc", "{925B4BDD-E4EA-4D34-BF2C-0657592DD43F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Ioc", "Infra.Ioc", "{925B4BDD-E4EA-4D34-BF2C-0657592DD43F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project.Infra.Data", "Project.Infra.Data", "{F7BE64B3-002D-49B7-9EE8-1AD1B46F1917}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", "{F7BE64B3-002D-49B7-9EE8-1AD1B46F1917}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project.UI.Mvc", "Project.UI.Mvc", "{7E5CC148-B518-4C77-A9CA-CDAEB978C4F6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{7E5CC148-B518-4C77-A9CA-CDAEB978C4F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Mvc", "Project.Mvc\Project.Mvc.csproj", "{478A49CD-6AA1-41F7-A9EF-520755145A6E}"
 EndProject
